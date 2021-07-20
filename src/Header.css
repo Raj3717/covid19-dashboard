@@ -1,0 +1,56 @@
+.header {
+    width: 100%;
+    display: table;
+    color: white;
+    background-color: #2d4b65;
+}
+
+.right {
+    display: flex;
+    float: right;
+}
+
+.left {
+    margin-left: 20px;
+    float: left;
+}
+
+.headerColumn {
+    padding-top: 20px;
+    padding-right: 10px;
+    width: 100px;
+}
+
+a {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.stateListTable {
+    overflow: scroll;
+    background: white;
+    height: 500px;
+  }
+  
+  tr {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  td {
+    padding: 0.5rem;
+    border: none;
+  }
+  
+  tr:nth-of-type(odd) {
+    background-color: gray;
+  }
+
+  .modalData {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }

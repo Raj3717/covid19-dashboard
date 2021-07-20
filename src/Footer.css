@@ -1,0 +1,12 @@
+.content{
+    margin-top: auto;
+    color: white;
+    background-color: #2d4b65;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
